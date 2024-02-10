@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cal.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Calories Counter</header>
+    <main>
+        <form action="#" method="post" id="form">
+            <section id="enter-calories">
+                <input type="number" name="" id="">
+                <button id="calories-enter-btn">Enter</button>
+            </section>
+            <fieldset>
+                <legend>Breakfast</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Lunch</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Snacks</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Dinner</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Exercise</legend>
+            </fieldset>
+            <section id="btns">
+                <label for="opts">
+                    <select name="options" id="opts">
+                        <option value="Breakfast" >Breakfast</option>
+                        <option value="Lunch" >Lunch</option>
+                        <option value="Snacks" >Snacks</option>
+                        <option value="Dinner" >Dinner</option>
+                        <option value="Exercise" >Exercise</option>
+                    </select>
+                </label>
+                <label for="opt-enter">
+                    <button id="opt-enter">Enter data</button>
+                </label>
+                <label for="">
+                    <button id="calc">Calculate Calories</button>
+                </label>
+            </section>
+        </form>
+        <section id="result-stats">
+            <div id="result-calories"></div>
+            <div id="sub-stats">
+                <div id="total-calories"></div>
+                <div id="calories-consumed"></div>
+                <div id="calories-burned"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

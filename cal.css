@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: rgb(27, 27, 33);
+}
+header{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+form{
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid white;
+    padding: 10px;
+}
+button,select,option{
+    border-radius: 5px;
+    padding: 3px;
+    color: black;
+}
+fieldset{
+    padding: 5px;
+    margin: 10px 0;
+}
+legend{
+    margin-left: 10px;
+}
