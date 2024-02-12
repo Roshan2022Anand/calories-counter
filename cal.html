@@ -4,46 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cal.css">
-    <title>Document</title>
+    <title>Calorie counter</title>
 </head>
 <body>
     <header>Calories Counter</header>
     <main>
-        <form action="#" method="post" id="form">
+        <form action="javascript:void(0);" method="post" id="form">
             <section id="enter-calories">
-                <input type="number" name="" id="">
-                <button id="calories-enter-btn">Enter</button>
+                <p>Enter the calorie budget</p>
+                <input type="number" id="user-total-calories">
             </section>
-            <fieldset>
+            <fieldset id="breakfast">
                 <legend>Breakfast</legend>
             </fieldset>
-            <fieldset>
+            <fieldset id="lunch">
                 <legend>Lunch</legend>
             </fieldset>
-            <fieldset>
+            <fieldset id="snacks">
                 <legend>Snacks</legend>
             </fieldset>
-            <fieldset>
+            <fieldset id="dinner">
                 <legend>Dinner</legend>
             </fieldset>
-            <fieldset>
+            <fieldset id="exercise">
                 <legend>Exercise</legend>
             </fieldset>
             <section id="btns">
                 <label for="opts">
                     <select name="options" id="opts">
-                        <option value="Breakfast" >Breakfast</option>
-                        <option value="Lunch" >Lunch</option>
-                        <option value="Snacks" >Snacks</option>
-                        <option value="Dinner" >Dinner</option>
-                        <option value="Exercise" >Exercise</option>
+                        <option value="breakfast" >Breakfast</option>
+                        <option value="lunch" >Lunch</option>
+                        <option value="snacks" >Snacks</option>
+                        <option value="dinner" >Dinner</option>
+                        <option value="exercise" >Exercise</option>
                     </select>
                 </label>
                 <label for="opt-enter">
                     <button id="opt-enter">Enter data</button>
                 </label>
-                <label for="">
-                    <button id="calc">Calculate Calories</button>
+                <label for="calcBtn">
+                    <button id="calcBtn">Calculate Calories</button>
                 </label>
             </section>
         </form>
@@ -56,5 +56,6 @@
             </div>
         </section>
     </main>
+    <script src="cal.js"></script>
 </body>
 </html>

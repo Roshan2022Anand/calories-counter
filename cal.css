@@ -14,7 +14,8 @@ header{
 }
 form{
     margin: 10px auto;
-    width: 80%;
+    width: 60%;
+    min-width: 600px;
     border: 1px solid white;
     padding: 10px;
 }
@@ -29,4 +30,49 @@ fieldset{
 }
 legend{
     margin-left: 10px;
+}
+button{
+    margin-left: 10px;
+    background-color: rgba(236, 236, 36, 0.938);
+    border: 1px solid rgba(255, 255, 0, 0.46);
+}
+input{
+    border: none;
+    background-color: rgb(27, 27, 33);
+    border-bottom: 2px solid white;
+}
+.block-label{
+    display: block;
+    margin: 2px 0;
+}
+.block-label input{
+    margin-left: 10px;
+}
+#result-stats{
+    display: none;
+    margin: 10px auto;
+    width: 60%;
+    min-width: 600px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+#result-calories{
+    border-bottom: 2px solid white;
+    margin: 5px 0;
+}
+#sub-stats > *{
+    margin: 4px 0;
+}
+@keyframes error{
+    0%{
+        border-bottom: 2px solid red;
+    }
+    50%{
+        border-bottom: 4px solid red;
+    }
+    100%{
+        border-bottom: 2px solid red;
+    }
 }
