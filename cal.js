@@ -49,7 +49,7 @@ calcBtn.addEventListener("click" , ()=>{
             netCalories.innerText = `${balance*-1} Calories surplus`
             netCalories.style.color = 'red';
         }else{
-            // deficite
+            netCalories.style.color = "white";
             netCalories.innerText = `${balance} Calories deficte`
         }
         displayTotalCalories.innerText = `${totalCalories.value} Total calories`;
